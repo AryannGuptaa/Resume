@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Portfolio.css">
+  <title>My Resume</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Tech Skills">Tech Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1 style="font-weight: 350;">Hello, I am <strong style="font-weight: 900;">Aryan Gupta,</strong></h1>
+        <h1 class="dif" style="font-size: 3rem; margin-top: 30px; font-weight: 350;">Designing and developing web pages while exploring AI/ML innovations.</h1>
+        <h1 class="dif" style="font-size: 3rem; margin-top: 20px; font-weight: 900;">Learning. Expecuting. Developing</h1>
+        <button id="copyEmailBtn">📋 Copy Email</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title" style="color: white;">Technical Skills</h1>
+        <p style="color: white;">I am currently learning to design and develop purposeful websites while exploring my interest in machine learning.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="images/webdes.svg"></div>
+          <h2>Web Design</h2>
+          <p>I discovered web design before diving into coding because I've always been a design critic with a unique design vision that sets me apart. I use <strong>Framer,</strong><strong> Figma</strong> and <strong>UI Libraries</strong> to design web pages</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="images/webdev.svg"></div>
+          <h2>Web Development</h2>
+          <p>I am continuously learning and refining my web development skills, currently building with <strong>HTML,</strong> <strong>CSS,</strong> <strong>Tailwind,</strong> and <strong>Next.js</strong>. Learning more tools along the journey of web development also trying app development.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="images/ml.svg"></div>
+          <h2>Machine Learning</h2>
+          <p>Starting to explore the world of AI and Machine Learning, focusing on learning new concepts and building models and algorithms using <strong>Python</strong> and relevant frameworks but currently not the best at it. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+    <section id="projects">
+      
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Projects</h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Liveable</h1>
+              <h2 style="font-weight: 500; margin-top: -1px; margin-bottom: 20px;">Student Accomoodation</h2>
+              <p>Working on a platform that helps college students find and book accommodations near their universities by suggesting the best properties tailored to their needs at the most affordable prices. The website also enables PG owners to maximize revenue and compete effectively with larger players in the market.</p>
+            </div>
+          </div>
+          <div class="project-item" style="margin-top: 40px;">
+            <div class="project-info">
+              <h1>India's Got Latent</h1>
+              <h2 style="font-weight: 500; margin-top: -1px; margin-bottom: 20px;">Booking Platform</h2>
+              <p>Developed a website for the popular show <i>India’s Got Latent</i>, allowing fans to book tickets and purchase official merchandise. With the show's closure approaching, the website can now be repurposed for other ventures.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="images/aryanimg.jpeg" alt="img" style="border-radius: 30px;">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Who am i?</h1>
+        <h2>2<sup>nd</sup> Year Student, B.Tech, CSE (CYBER SECURITY)</h2>
+        <p>I am currently in my second year of a four-year <strong>B.Tech program</strong> at <strong>Institute of Technology, Bengaluru.</strong> While I have always been a <strong>marketing enthusiast</strong>, my focus has now shifted towards <strong>web design and development.</strong></p>
+        <a href="images/resume.pdf" class="cta" download="Resume.pdf" id="downloadResumeBtn" onclick="showDoneMessage(this)"> 
+          Download Resume
+      </a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact</h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="images/mobile.svg" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9820096764</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="images/mail.svg" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>aryan.gupta16105@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="images/linkedin.svg"/></div>
+          <div class="contact-info">
+            <h1>LinkedIn</h1>
+            <a href="https://www.linkedin.com/in/aryannguptaa2005/"><h2>Aryan Gupta</h2></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>© Aryan Gupta</h1>
+      </div>
+      <h2>Learning. Executing. Developing</h2>
+    </div>
+    
+  </section>
+  <!-- End Footer -->
+  <script src="./Portfolio.js"></script>
+</body>
+
+</html>
